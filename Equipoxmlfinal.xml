@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE equipos SYSTEM "equipos.dtd">
+<equipos>
+  <equipo >
+    <nombre-equipo>chinganeiros</nombre-equipo>
+   <direccion>Director simpatico, Director cabron</direccion>
+   <entrenador>Entrenador carlos</entrenador>
+   <jugadores>
+     <alineacion>
+       <portero>
+          <jugador><nombre>jugador 1</nombre><edad></edad><tamaño></tamaño><velocidad></velocidad><fuerza></fuerza></jugador>
+       </portero>
+       <defensa>
+        <jugador><nombre>Jugador 2</nombre><edad></edad><tamaño></tamaño><velocidad></velocidad><fuerza></fuerza></jugador>
+        <jugador><nombre>Jugador 3</nombre><edad></edad><tamaño></tamaño><velocidad></velocidad><fuerza></fuerza></jugador>
+        <jugador><nombre>Jugador 4</nombre><edad></edad><tamaño></tamaño><velocidad></velocidad><fuerza></fuerza></jugador>
+       </defensa>
+       <medio>
+        <jugador><nombre>Jugador 5</nombre><edad></edad><tamaño></tamaño><velocidad></velocidad><fuerza></fuerza></jugador>
+        <jugador><nombre>Jugador 6</nombre><edad></edad><tamaño></tamaño><velocidad></velocidad><fuerza></fuerza></jugador>
+        <jugador><nombre>Jugador 6</nombre><edad></edad><tamaño></tamaño><velocidad></velocidad><fuerza></fuerza></jugador>
+        <jugador><nombre>Jugador 7</nombre><edad></edad><tamaño></tamaño><velocidad></velocidad><fuerza></fuerza></jugador>
+       </medio>
+       <delantero>
+        <jugador><nombre>Jugador 8</nombre><edad></edad><tamaño></tamaño><velocidad></velocidad><fuerza></fuerza></jugador>
+        <jugador><nombre>Jugador 9</nombre><edad></edad><tamaño></tamaño><velocidad></velocidad><fuerza></fuerza></jugador> 
+        <jugador><nombre>Jugador 10</nombre><edad></edad><tamaño></tamaño><velocidad></velocidad><fuerza></fuerza></jugador>
+       </delantero>
+     </alineacion>  
+     <suplentes>
+      <jugador><nombre>Jugador 11</nombre><edad></edad><tamaño></tamaño><velocidad></velocidad><fuerza></fuerza></jugador>
+      <jugador><nombre>Jugador 12</nombre><edad></edad><tamaño></tamaño><velocidad></velocidad><fuerza></fuerza></jugador>
+      <jugador><nombre>Jugador 13</nombre><edad></edad><tamaño></tamaño><velocidad></velocidad><fuerza></fuerza></jugador>
+      <jugador><nombre>Jugador 14</nombre><edad></edad><tamaño></tamaño><velocidad></velocidad><fuerza></fuerza></jugador>
+      <jugador><nombre>Jugador 15</nombre><edad></edad><tamaño></tamaño><velocidad></velocidad><fuerza></fuerza></jugador>
+      <jugador><nombre>Jugador 16</nombre><edad></edad><tamaño></tamaño><velocidad></velocidad><fuerza></fuerza></jugador>
+      <jugador><nombre>Jugador 17</nombre><edad></edad><tamaño></tamaño><velocidad></velocidad><fuerza></fuerza></jugador>
+      <jugador><nombre>Jugador 18</nombre><edad></edad><tamaño></tamaño><velocidad></velocidad><fuerza></fuerza></jugador>
+      <jugador><nombre>Jugador 19</nombre><edad></edad><tamaño></tamaño><velocidad></velocidad><fuerza></fuerza></jugador>
+      <jugador><nombre>Jugador 20</nombre><edad></edad><tamaño></tamaño><velocidad></velocidad><fuerza></fuerza></jugador>
+     </suplentes>
+   </jugadores>
+  </equipo>
+
+</equipos>

@@ -1,0 +1,66 @@
+body{
+	background-color: #113bcf;
+	color: #fbfefc;
+}
+td, tr, th{
+	border: 3px solid;
+	border-color: #84c1f0;		
+}
+
+table{
+	border: 3px solid;
+	border-color: #84c1f0;
+	margin: auto;
+	border-radius: 20px;
+	border-spacing: 0px;
+}
+
+img{
+	width: 200px;
+	height: 200px;
+	margin-bottom: -4px;
+}
+img#imagen_cabecera{
+	margin: auto;
+	display: block;
+	width: 846px;
+	height: 475px;
+}
+div.Estadisticas{
+	display: grid;
+	width: 400px;
+	height:200px;
+}
+td.titulo{
+	text-align: center;
+	padding: 10px;
+	font-size: 1.1em;
+}
+/*redondeando las esquinas*/
+tr:first-child, tr:first-child td {
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+}
+table#suplentes tr:first-child img{
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+tr:last-child{
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+tr:last-child td:first-child{
+	border-bottom-left-radius: 15px;
+}
+tr:last-child td:first-child img{
+	border-bottom-left-radius: 10px;
+}
+tr:last-child td:last-child{
+	border-bottom-right-radius: 15px;
+}
+ul{
+	list-style-type: none;
+}
+li{
+	margin: 5px;
+}
