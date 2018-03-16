@@ -4,7 +4,7 @@
 <head>
 	<title>equipos de futbol</title>
 	 <link rel="stylesheet" type="text/css" href="css/main.css" title="style"/>
-
+	 
 </head>
 <body>
 	<div ><img id="imagen_cabecera" src="images/disneylogo.jpg"/></div>
@@ -12,7 +12,7 @@
 	<p><h3>Chinganeiros</h3></p>
 	<p>Direccion: Robertito Perez</p>
 	<p>Entrenador: Heliodoro</p>
-
+	<p id="prueba_array"></p>
 	<table>
 		<caption><h2>Alineacion</h2></caption>
 		<tr><td class="titulo" colspan="2">Portero</td></tr>
@@ -260,5 +260,28 @@
 
 
 	</table>
+	<script>
+var xhttp;
+xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        myFunction(this);
+    }
+};
+xhttp.open("GET", "Equipoxmlfinal.xml", true);
+xhttp.send();
+
+function myFunction(xml) {
+    var x, i, txt, xmlDoc; 
+    xmlDoc = xml.responseXML;
+    txt = "";
+    x = xmlDoc.getElementsByTagName("nombre");
+    for (i = 0; i < x.length; i++) { 
+        txt += x[i].childNodes[0].nodeValue + "<br>";
+    }
+    document.getElementById("prueba_array").innerHTML = txt;
+}
+</script>
+
 </body>
 </html>
